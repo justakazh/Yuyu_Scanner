@@ -37,6 +37,6 @@ def process(domain):
 			file.save("hostdie", domain)
 
 	except Exception as e:
-		print(e)
 		print("\t"+colors.warnaihidupku("white")+"["+colors.warnaihidupku("red")+"-"+colors.warnaihidupku("white")+"] "+ domain + " "+colors.warnaihidupku("red")+"["+colors.warnaihidupku("cyan")+"Die"+colors.warnaihidupku("red")+"] ")
 		file.save("hostdie", domain)
+		pass
