@@ -41,6 +41,7 @@ NOTE : COMING SOON FOR REPORTING :P
                 https://api.hackertarget.com/
                 https://riddler.io/
                 http://index.commoncrawl.org/
+                
 - Port scanning with NMAP
 - Url Discovery from waybackurl
 - IP Discovery 
@@ -57,33 +58,33 @@ NOTE : COMING SOON FOR REPORTING :P
 - Save all Discovery result
 - Generate HTML Report
 - Generate JSON Report
-- U can use Stdin for mass scanning 
+- You can use Stdin for mass scanning 
   - cat domain.txt | yuyu.py [arg]
 - Custom ur timeout
 
 ## Usage
 - Basic Arguments:
-              
-              ~$ python3 yuyu.py -u domain.com [arg]
-              ~$ cat domain.txt | yuyu.py [arg]
 
-<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/Screenshot_6.png">
+                ~$ python3 yuyu.py -u domain.com [arg]
+                ~$ cat domain.txt | yuyu.py [arg]
 
-                
                 -h, --help            show this help message and exit
                 -u URL, --url URL     Target URL
+                -f FILE, --file FILE  Target URL
                 -g, --gui             Run Yuyu in Gui Mode
-                -sp, --scanport       Port Discovery from Discovery IP
+                -cl, --checklive      Check host live or not
+                -ci, --collectinginformation
+                                    Collecting Information
+                -sh, --securityheaders
+                                    Check For Missing Security Headers
                 -ri, --revip          Reverse IP from target URL
-                -wl, --whois          Whois Lookup from target URL
-                -cu, --collecturl     Collect URL from target URL & Subdomain Result
-                -ed, --emaildiscover  Email Discovery jfrom Subdomain Result
+                -ws, --whois          Whois Lookup from target URL
+                -cu, --collecturl     Collect URL from WaybackURL
+                -ed, --emaildiscover  Email Discovery
+                -sp, --scanport       Port Discovery from Discovery IP
+                -cc, --corscheck      CORS missconfiguration Check
                 -fs, --filesensitive  Find Sensitive Files from Subdomain Result
-                
-### Run Gui 
-      bash gui.sh run
-### Stop Gui 
-      bash gui.sh stop
+                -to [TIMEOUT], --timeout [TIMEOUT] Timeout for requests, default : 5
 
 ## Publication
 - https://www.researchgate.net/publication/352295423_PENGEMBANGAN_APLIKASI_INFORMATION_GATHERING_MENGGUNAKAN_METODE_HYBRID_SCAN_BERBASIS_GRAPHICAL_USER_INTERFACE
