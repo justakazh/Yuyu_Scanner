@@ -1,0 +1,3 @@
+/.git/HEAD
+/xmlrpc.php
+/robots.txt
