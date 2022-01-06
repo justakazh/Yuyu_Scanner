@@ -12,15 +12,15 @@ Yuyu Scanner is a Web Reconnaissance & Web Analysis Scanner to find assets and i
 
 ### GUI
 This Gui is made using Electron JS and Bootstrap<br>
-<img src="https://github.com/justakazh/Yuyu_Scanner/raw/main/Screenshot_7.png">
+<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/y.png">
 NOTE : COMING SOON FOR GUI VERSION :P
 
 ### CLI
 This CLI was created using the python language program
-<img src="https://github.com/justakazh/Yuyu_Scanner/raw/main/Screenshot_8.png">
+<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/Screenshot_8.png">
 
 ### REPORTING
-<img src="https://github.com/justakazh/Yuyu_Scanner/raw/main/Screenshot_9.png">
+<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/Screenshot_9.png">
 NOTE : COMING SOON FOR GUI VERSION :P
 
 ## Features 
@@ -65,7 +65,7 @@ NOTE : COMING SOON FOR GUI VERSION :P
               ~$ python3 yuyu.py -u domain.com [arg]
               ~$ cat domain.txt | yuyu.py [arg]
 
-<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/main/Screenshot_6.png">
+<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/Screenshot_6.png">
 
                 
                 -h, --help            show this help message and exit
