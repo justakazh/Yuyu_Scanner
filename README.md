@@ -1,6 +1,6 @@
 # Yuyu Scanner
 
-<img src='https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/y.png>
+<img src='https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/y.png'>
 
 Yuyu Scanner is a Web Reconnaissance & Web Analysis Scanner to find assets and information about targets.
 
