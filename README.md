@@ -1,6 +1,6 @@
 # Yuyu Scanner
 
-<img src='https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/main/y.png'>
+<img src='https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/y.png>
 
 Yuyu Scanner is a Web Reconnaissance & Web Analysis Scanner to find assets and information about targets.
 
@@ -12,7 +12,7 @@ Yuyu Scanner is a Web Reconnaissance & Web Analysis Scanner to find assets and i
 
 ### GUI
 This Gui is made using Electron JS and Bootstrap<br>
-<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/y.png">
+<img src="https://raw.githubusercontent.com/justakazh/Yuyu_Scanner/master/Screenshot_7.png">
 NOTE : COMING SOON FOR GUI VERSION :P
 
 ### CLI
