@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # YUYU project
-# I'M A BAD CODER xD
-
+# I'm a bad Coder so dont expect to much :p
 
 
 from lib.machine import machine
