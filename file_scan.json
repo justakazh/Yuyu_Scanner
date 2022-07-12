@@ -1,0 +1,26 @@
+{
+	".git/HEAD": [
+		"refs/heads"
+	],
+	".git/config": [
+		"[core]"
+	],
+	".env": [
+		"APP_KEY"
+	],
+	"robots.txt": [
+		"Disallow:"
+	],
+	"xmlrpc.php": [
+		"XML-RPC server accepts POST requests only."
+	],
+	"test.php": [
+		"phpinfo()"
+	],
+	"info.php": [
+		"phpinfo()"
+	],
+	"phpinfo.php": [
+		"phpinfo()"
+	]
+}
